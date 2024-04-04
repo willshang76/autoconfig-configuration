@@ -1,0 +1,20 @@
+person:
+  user-name: 'will'
+  age: 18
+  boa: 2023/10/12
+  boss: true
+  hobbies:
+    - football
+    - soccer
+    - basketball
+  dpt:
+    dptId: 1
+    dptName: sales
+  all-dpts:
+    k1: {dpt-id: 1, dpt-name: sales}
+    k2:
+      dpt-id: 2
+      dpt-name: "customer service"
+
+server:
+  port: 8089
